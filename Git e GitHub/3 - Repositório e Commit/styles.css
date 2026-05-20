@@ -1,0 +1,29 @@
+/*
+
+REPOSITÓRIO E COMMITS
+
+    Repositório é um local onde o código-fonte de um projeto é armazenado e gerenciado. Ele pode ser local (no computador do desenvolvedor) ou remoto (em um servidor, como o GitHub). O repositório contém todo o histórico de alterações do projeto, permitindo que os desenvolvedores rastreiem as mudanças ao longo do tempo.
+
+    Stage: Stage é uma área temporária onde as alterações feitas no código-fonte são preparadas para serem commitadas. Quando um desenvolvedor faz mudanças em um arquivo, essas mudanças não são automaticamente incluídas no próximo commit. O stage permite que o desenvolvedor selecione quais alterações deseja incluir no commit, proporcionando controle sobre o que será registrado no histórico do projeto.
+
+    Commit: Commit é uma operação no Git que registra as alterações feitas no código-fonte. Cada commit é identificado por um hash único e contém informações sobre as mudanças realizadas, como o autor, a data e uma mensagem descritiva. Os commits permitem que os desenvolvedores mantenham um histórico claro das alterações e facilitem a colaboração em equipe.
+
+        -Hash: Hash é um valor gerado a partir do conteúdo de um arquivo ou conjunto de arquivos. No Git, cada commit é identificado por um hash único, que é calculado com base no conteúdo do commit. O hash é uma string alfanumérica que serve como um identificador exclusivo para cada commit, permitindo que os desenvolvedores rastreiem e referenciem mudanças específicas no código-fonte.
+    
+    -Branch: Branch é uma ramificação do código-fonte em um repositório Git. Ele permite que os desenvolvedores criem uma linha de desenvolvimento separada para trabalhar em novas funcionalidades, correções de bugs ou experimentos, sem afetar o código principal (geralmente chamado de "master" ou "main"). As branches facilitam a colaboração em equipe, permitindo que diferentes desenvolvedores trabalhem em paralelo e integrem suas mudanças posteriormente.
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #f0f;
+}
+
+p {
+    color: #00f;
+}

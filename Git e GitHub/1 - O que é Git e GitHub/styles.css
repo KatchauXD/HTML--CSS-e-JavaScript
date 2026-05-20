@@ -1,0 +1,23 @@
+/*
+
+O QUE É GIT E GITHUB
+
+    -Git: O Git é um sistema de controle de versão distribuído que permite aos desenvolvedores rastrear e gerenciar as alterações em seus projetos de software. Ele funciona localmente no computador do desenvolvedor, permitindo que ele faça commits, crie branches e gerencie o histórico de alterações de forma eficiente. O Git é amplamente utilizado para colaboração em projetos de software, facilitando o trabalho em equipe e a integração de mudanças.
+    
+    -GitHub: O GitHub é uma das plataforma de hospedagem de código-fonte baseada na web que utiliza o sistema de controle de versão Git. Ele oferece uma interface amigável para os desenvolvedores colaborarem em projetos de software, permitindo que eles compartilhem código, gerenciem repositórios, criem branches, façam pull requests e colaborem com outros desenvolvedores ao redor do mundo. O GitHub é amplamente utilizado para projetos de código aberto e privados, facilitando a colaboração e o compartilhamento de conhecimento entre os desenvolvedores.
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #f0f;
+}
+
+p {
+    color: #00f;
+}

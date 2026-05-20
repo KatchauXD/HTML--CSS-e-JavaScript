@@ -1,0 +1,33 @@
+/*
+
+LOGANDO LOCALMENTE NO GITHUB
+
+    No terminal, selecioando o Git Bash, digite o seguinte comando para configurar seu nome de usuário e email:
+
+        git config --global user.email "seu.email@exemplo.com"
+        git config --global user.name "Seu Nome"
+
+    Para verificar se as configurações foram aplicadas corretamente, use o comando:
+
+        git config --global --list
+    
+    Deverá aparecer em uma das opcções algo como:
+
+        user.name=Seu Nome
+        user.email=seu.email@exemplo.com
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #f0f;
+}
+
+p {
+    color: #00f;
+}
