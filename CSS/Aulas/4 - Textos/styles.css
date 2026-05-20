@@ -1,0 +1,30 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+/* Importação de fontes */
+h1 {
+    color: #ff00ff;
+    font-size: 64px;
+    font-family: 'Sekuya', sans-serif; /* Família da Fonte: nome da fonte, fontes genéricas (serif, sans-serif, monospace, cursive, fantasy) */
+    font-style: italic; /* Estilo da Fonte: normal, italic, oblique */
+    text-align: center; /* Alinhamento do texto: left, right, center, justify */
+    text-shadow: 10px 10px 40px #ff00ff; /* Sombra do texto: horizontal, vertical, desfoque, cor */
+}
+
+p {
+    color: #0000ff;
+    font-size: 32px;
+    font-weight: lighter; /* Grossura da Fonte: normal, bold, bolder, lighter ou numéricos (100 a 900) */
+    font-family: 'Supermercado One', cursive;
+    line-height: 100px; /* Altura da linha: valor numérico */
+    letter-spacing: 10px; /* Espaçamento entre letras: valor numérico */
+    word-spacing: 30px; /* Espaçamento entre palavras: valor numérico */
+    text-align: justify;
+    text-transform: capitalize; /* Transformação do texto: none, capitalize, uppercase, lowercase */
+    text-decoration: underline; /* Decoração do texto: none, underline, overline, line-through */
+}
+
+/*
+SITE DE FONTES:
+
+https://fonts.google.com/
+*/

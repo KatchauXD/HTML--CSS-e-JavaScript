@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid #f00;
+    color: #00f;
+}
+
+input::placeholder {
+    color: #f0f;
+}
+
+p {
+    color: #0f0;
+}
+
+p::first-line {
+    color: #00f;
+}
+
+p::first-letter {
+    color: #f00;
+}
+
+a {
+    color: #00f;
+}
+
+a::before {
+    content: "=> ";
+    color: #f00;
+}
+
+a::after {
+    content: " <=";
+    color: #f00;
+}

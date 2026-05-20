@@ -1,0 +1,101 @@
+/*
+    PSEUDO CLASSES
+
+    As pseudo classes são palavras-chave adicionadas a seletores que especificam um estado especial do elemento selecionado. Elas são usadas para definir um estilo para um elemento em um estado específico, como quando o mouse está sobre ele ou quando ele é o primeiro filho de seu pai.
+
+    Exemplo de pseudo classe:
+
+    :active - No momento em que ele é ativado, como quando é clicado.
+    :visited - Quando um link foi visitado.
+    :hover - Quando o mouse está sobre o elemento.
+    :checked - Quando um elemento como um checkbox ou radio button, está marcado.
+    :disabled - Quando um elemento está desabilitado.
+    :enabled - Quando um elemento está habilitado.
+    :focus - Quando um elemento tem foco, como um campo de formulário que foi clicado ou selecionado.
+    :read-only - Quando um elemento é somente leitura.
+    :empty - Quando um elemento não tem filhos, incluindo texto.
+
+    :first-child - Quando um elemento é o primeiro filho de seu pai, como o primeiro li de uma ul ou o primeiro span de uma div.
+    :first-of-type - Quando um elemento é o primeiro de seu tipo entre seus irmãos, como o primeiro p dentro de uma div, mesmo que ele não seja o primeiro filho da div.
+    :last-child - Quando um elemento é o último filho de seu pai.
+    :last-of-type - Quando um elemento é o último de seu tipo entre seus irmãos.
+    :not() - Seleciona elementos que não correspondem a um seletor específico.
+    :nth-child(n) - Seleciona o enésimo filho de seu pai, onde n pode ser um número, uma palavra-chave (como "odd" ou "even"), ou uma fórmula (como "2n+1").
+    :nth-last-child(n) - Seleciona o enésimo filho de seu pai, contando a partir do final.
+    :nth-of-type(n) - Seleciona o enésimo elemento de seu tipo entre seus irmãos.
+    :nth-last-of-type(n) - Seleciona o enésimo elemento de seu tipo entre seus irmãos, contando a partir do final.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+button:active {
+    background-color: purple;
+}
+
+button:hover {
+    color: pink;
+}
+
+input:checked {
+    height: 25px;
+    width: 25px;
+}
+
+input:disabled {
+    color: violet;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid red;
+}
+
+input:read-only {
+    color: #dc143c;
+}
+
+.container {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.container:empty {
+    background-color: blue;
+}
+
+li:first-child {
+    font-style: italic;
+}
+
+li:last-child {
+    font-weight: bold;
+}
+
+li:nth-child(2) {
+    font-weight: bolder;
+}
+
+li:nth-last-child(2) {
+    font-style: italic;
+}
+
+span:first-of-type {
+    color: #7700ff;
+}
+
+.box :not(#excluído) {
+    color: red;
+}

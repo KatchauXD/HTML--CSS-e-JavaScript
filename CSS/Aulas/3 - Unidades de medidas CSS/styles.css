@@ -1,0 +1,47 @@
+.avô {
+    background: lightblue;
+    width: 75vw;
+    height: 75vh;
+    font-size: 16px;
+} 
+
+.pai {
+    background: purple;
+    width: 50vw;
+    height: 50vh;
+    font-size: 1.5em;
+}
+
+.filho {
+    background: pink;
+    width: 50%;
+    height: 50%;
+    font-size: 1.5em;
+
+}
+
+.neto {
+    background: lightgreen;
+    width: 50%;
+    height: 50%;
+    font-size: 1rem;
+}
+
+p {
+    color: black;
+}
+/*
+    UNIDADES DE MEDIDA CSS
+
+    -> ABSOLUTAS
+        px - (pixels)
+        in - (inches/polegadas)
+        cm/mm - (centímetros/milímetros)
+
+    -> RELATIVAS
+        % - calcula o valor com base em outro valor, geralmente o elemento pai
+        vw - (viewport width/largura da janela de visualização) 1vw é igual a 1% da largura da janela de visualização
+        vh - (viewport height/altura da janela de visualização) 1vh é igual a 1% da altura da janela de visualização
+        em - é uma unidade relativa ao tamanho da fonte do elemento pai. 1em é igual ao tamanho da fonte do elemento pai
+        ex - é uma unidade relativa à altura do caractere 'x' da fonte do elemento pai. 1ex é igual à altura do caractere 'x' da fonte do elemento pai
+*/

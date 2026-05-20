@@ -1,0 +1,44 @@
+/*
+    RESPONSIVIDADE
+
+    Responsividade é a capacidade de um site se adaptar a diferentes tamanhos de tela, proporcionando uma experiência de usuário consistente e agradável em dispositivos como desktops, tablets e smartphones.
+
+    MEDIA QUERIES
+
+    @media é uma regra CSS que permite aplicar estilos específicos com base em características do dispositivo, como largura da tela, altura, orientação, resolução, entre outros. Isso é fundamental para criar designs responsivos.
+
+    All: Aplica os estilos a todos os dispositivos.
+    Braille: Aplica os estilos a dispositivos tateis.
+    Embossed: Aplica os estilos a dispositivos de relevo que imprimem braile.
+    Handheld: Aplica os estilos a dispositivos portáteis, geralmente com telas menores e banda limitada.
+    Print: Aplica os estilos a documentos que serão impressos ou visualizados em modo de impressão.
+    Projection: Para projetores.
+    Screen: Aplica os estilos a monitores de computador, tablets, smartphones, etc.
+    Speech: Aplica os estilos a leitores de tela que convertem texto em fala.
+
+    Orientação:
+
+    portrait: Aplica os estilos quando a altura da tela é maior que a largura (modo retrato).
+    
+    landscape: Aplica os estilos quando a largura da tela é maior que a altura (modo paisagem).
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 700px;
+    height: 700px;
+    background: blue;
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait){
+    div {
+        width: 200px;
+        height: 200px;
+        background: red;
+    }
+}

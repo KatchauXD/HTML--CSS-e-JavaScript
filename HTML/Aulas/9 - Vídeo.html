@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vídeo</title>
+    </head>
+
+    <body>
+        <video
+            src="imgs/fedida.mp4"
+            width="400px"
+            controls 
+            controlsList="nodownload"
+            poster="_pica-pau.jpeg"
+        > <!-- 
+        Na abertura da TAG de vídeo pode se incluir determinados atributos como:
+
+        -src: para indicar o caminho do vídeo
+        -width: para indicar a largura do vídeo
+        -controls: para indicar que o vídeo deve conter os controles de play, pause, etc
+        -controlsList: para indicar quais controles devem ser exibidos, como por exemplo "nodownload" para não exibir o controle de download
+        -poster: para indicar a imagem que deve ser exibida antes do vídeo ser reproduzido
+        -->
+        </video>
+
+        <video controls autoplay muted width="400px">
+            <source src="imgs/fedida.mp4">
+            <!-- 
+            Também é possível incluir o vídeo utilizando a TAG <source>, que é uma forma mais semântica de incluir o vídeo, além de permitir a inclusão de múltiplas fontes para o mesmo vídeo, garantindo maior compatibilidade com diferentes navegadores.
+
+            Outros atributos que podem ser utilizados na TAG de vídeo são:
+
+            -autoplay: para indicar que o vídeo deve ser reproduzido automaticamente assim que a página for carregada
+            muted: para indicar que o áudio do vídeo deve ser silenciado
+
+            OBS: em alguns navegadores,o atributo autoplay só funciona se o vídeo estiver mudo, ou seja, se o atributo muted estiver presente. Caso contrário, o vídeo não será reproduzido automaticamente.
+            -->
+        </video>
+    </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input</title>
+    </head>
+
+    <body>
+        <input
+            autocomplete="name"
+            placeholder="Digite seu nome"
+            autofocus
+        >
+
+        <br>
+
+        <input
+            disabled
+            value="Desabilitado"
+        >
+
+        <br>
+
+        <input
+            readonly
+            value="Somente leitura"
+        >
+
+        <br>
+
+        <label>Senha:
+            <input type="password">
+        </label>
+
+        <br>
+
+        <label for="senha">Senha:</label>
+        <input
+            id="senha"
+            type="password"
+        >
+
+        <br>
+        <br>
+
+        <input type="color">
+
+        <br>
+
+        <input
+            type="range"
+            min="0"
+            max="100"
+            value="50"
+        >
+
+        <br>
+
+        <label>Você já cagou hoje?
+            <input type="checkbox">
+        </label>
+
+        <br>
+
+        <input
+            type="file"
+            accept=".jpeg"
+        >
+
+        <br>
+
+        <input
+            type="file"
+            multiple
+            accept="image/*"
+        >
+
+        <br>
+
+        <input type="number" placeholder="Números">
+
+        <br>
+
+        <input type="date">
+
+        <br>
+
+        <h2>Você está com fome?</h2>
+
+        <label>Sim
+            <input type="radio" name="fome">
+        </label>
+
+        <label>Não
+            <input type="radio" name="fome">
+        </label>
+
+        <label>Não te interessa
+            <input type="radio" name="fome">
+        </label>
+    </body>
+</html>

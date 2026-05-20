@@ -1,0 +1,33 @@
+* { /* Seleciona todos os elementos da página */
+    background: gray;
+}
+
+h1 { /* Seleciona apenas os elementos h1 */
+    background: black;
+}
+
+p { /* Seleciona apenas os elementos p */
+    color: blue;
+    font-size: 20px;
+}
+
+button { /* Seleciona apenas os elementos button */
+    background: green;
+    border-color: darkgreen;
+}
+
+#paragrafo { /* Seleciona o elemento com id "paragrafo" */
+    color: orange;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.texto { /* Seleciona os elementos com a classe "texto" */
+    color: red;
+
+}
+
+#paragrafo, #botao, h1 { /* Seleciona os elementos com id "paragrafo", id "botao" e os elementos h1 */
+    font-weight: bold;
+    background: pink;
+}

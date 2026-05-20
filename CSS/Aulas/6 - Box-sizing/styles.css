@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box; /* Vem como pradrão 'content-box' que aumenta o tamanho do elemento junto outras propriedades. Já como 'border-box' mantém o tamanho especificado */
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+    padding: 20px;
+    border: 10px dashed blue; /* tamanho, estilo, cor */
+}
